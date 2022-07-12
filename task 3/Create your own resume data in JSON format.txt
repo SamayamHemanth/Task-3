@@ -1,0 +1,117 @@
+Resume data in JSON format:
+
+let resumedata= {
+    personalinfo: {
+           "Name":"Samayam Hemanth Sai",
+          "Email":"info2samayam@gmail.com",
+            "DOB":"14-12-2000",
+         "Gender":"Male",
+         "Mobile":"8897739306",
+    "Nationality":"Indian",
+           "City":"tirupathi",
+"Languages Known":["English","Telugu"],
+        "Hobbies":["playing badminton","listening to music and workouts"],
+    },
+    Educationinfo: [{
+        "Course":"Mechatronics",
+        "Qualification":"B.Tech",
+        "Institute":"Sri Chandhrasekharendra Saraswathi Viswa Maha vidhyalaya  University(Deemed to be university)",
+        "City":"Kanchipuram",
+        "State":"Tamil Nadu",
+    },
+    {
+        "Course":"Intermediate",
+        "Institute":"Narayana Junior College",
+        "City":"Tirupathi",
+        "State":"Andhra Pradesh",
+    },   
+    {
+        "Course":"SSC",
+        "Institute":"Narayana techno School",
+        "City":"Tirupathi",
+        "State":"Andhra Pradesh",
+
+    },
+
+    ],
+
+    skillinfo:{
+        "skills":["Basics of C","Knowledge on MS OFFICE (MS-word, Power Point, Excel)","Internet"],
+        "currentstatus":"Learning on Full Stack Development",
+    },
+    Extercurriculaminfo:{
+       "Sports":"Participated in the sports fest named “SPARDHA” in kabaddi from our engineering department.",
+       "Organized":"Organized Mechatronics department fest named “AVISHKAR”.",
+       "Contest":"One of the top performers in “47TH NATIONAL MATHEMATICS TALENT CONTESTS 2015” from my institution.",
+
+    },
+    strengthinfo:{
+        "strengths":["Sincere and responsible","Patience","Team player"],
+    },
+
+
+    
+
+}
+
+console.log(resumedata);
+
+
+
+
+output for resume data:
+
+Educationinfo: Array(3)
+0:
+City: "Kanchipuram"
+Course: "Mechatronics"
+Institute: "Sri Chandhrasekharendra Saraswathi Viswa Maha vidhyalaya  University(Deemed to be university)"
+Qualification: "B.Tech"
+State: "Tamil Nadu"
+[[Prototype]]: Object
+1:
+City: "Tirupathi"
+Course: "Intermediate"
+Institute: "Narayana Junior College"
+State: "Andhra Pradesh"
+[[Prototype]]: Object
+2:
+City: "Tirupathi"
+Course: "SSC"
+Institute: "Narayana techno School"
+State: "Andhra Pradesh"
+[[Prototype]]: Object
+length: 3
+[[Prototype]]: Array(0)
+Extercurriculaminfo:
+Contest: "One of the top performers in “47TH NATIONAL MATHEMATICS TALENT CONTESTS 2015” from my institution."
+Organized: "Organized Mechatronics department fest named “AVISHKAR”."
+Sports: "Participated in the sports fest named “SPARDHA” in kabaddi from our engineering department."
+[[Prototype]]: Object
+personalinfo:
+City: "tirupathi"
+DOB: "14-12-2000"
+Email: "info2samayam@gmail.com"
+Gender: "Male"
+Hobbies: (2) ['playing badminton', 'listening to music and workouts']
+Languages Known: (2) ['English', 'Telugu']
+Mobile: "8897739306"
+Name: "Samayam Hemanth Sai"
+Nationality: "Indian"
+[[Prototype]]: Object
+skillinfo:
+currentstatus: "Learning on Full Stack Development"
+skills: (3) ['Basics of C', 'Knowledge on MS OFFICE (MS-word, Power Point, Excel)', 'Internet']
+[[Prototype]]: Object
+strengthinfo:
+strengths: Array(3)
+0: "Sincere and responsible"
+1: "Patience"
+2: "Team player"
+length: 3
+[[Prototype]]: Array(0)
+[[Prototype]]: Object
+[[Prototype]]: Object
+
+
+

@@ -1,0 +1,185 @@
+Array of objects:
+
+let obj=[
+    {person:"john",
+    age:30,
+    company:"google",
+    },
+    {person:"mohan",
+     age:37,
+     company:"flipkart",
+    },
+    {person:"kohan",
+     age:38,
+     company:"amazon",
+    },
+    {person:"sohan",
+     age:40,
+     company:"myntra",
+    },
+    {person:"jenny",
+     age:70,
+     company:"apple",
+    },
+]
+
+
+//for loop
+for(let i=0;i<obj.length;i++){
+    console.log(`
+    name:${obj[i].person}
+    age:${obj[i].age}
+    company:${obj[i].company}
+    `)
+}
+
+
+output (forloop):
+    name:john
+    age:30
+    company:google
+
+
+    name:mohan
+    age:37
+    company:flipkart
+
+
+    name:kohan
+    age:38
+    company:amazon
+
+
+    name:sohan
+    age:40
+    company:myntra
+
+
+    name:jenny
+    age:70
+    company:apple
+
+
+//foreach loop
+obj.forEach(data => {
+    console.log(`
+    name:${data.person}
+
+    age:${data.age}
+
+    company:${data.company}
+    `)
+}
+)
+
+output (foreach loop):
+
+
+    name:john
+
+    age:30
+
+    company:google
+
+
+    name:mohan
+
+    age:37
+
+    company:flipkart
+
+
+    name:kohan
+
+    age:38
+
+    company:amazon
+
+
+    name:sohan
+
+    age:40
+
+    company:myntra
+
+
+    name:jenny
+
+    age:70
+
+    company:apple
+
+
+//forin loop
+for(let key in obj){
+    console.log(key);
+    console.log(`
+    name:${obj[key].person}
+    age:${obj[key].age}
+    company:${obj[key].company}
+     `)
+}
+
+output (for-in loop):
+
+    name:john
+    age:30
+    company:google
+
+
+    name:mohan
+    age:37
+    company:flipkart
+
+
+    name:kohan
+    age:38
+    company:amazon
+
+
+    name:sohan
+    age:40
+    company:myntra
+
+
+    name:jenny
+    age:70
+    company:apple
+
+
+//forof loop
+for(let data of obj){
+    console.log(`
+    name:${data.person}
+    age:${data.age}
+    company:${data.company}
+    `)
+}
+
+output (forof loop):
+
+    name:john
+    age:30
+    company:google
+
+
+    name:mohan
+    age:37
+    company:flipkart
+
+
+    name:kohan
+    age:38
+    company:amazon
+
+
+    name:sohan
+    age:40
+    company:myntra
+
+
+    name:jenny
+    age:70
+    company:apple
+
+
